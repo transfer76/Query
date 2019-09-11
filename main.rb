@@ -1,3 +1,5 @@
+require_relative 'lib/query'
+
 puts Query.
       filter { status == 0 }.
       filter { requests > 5 }.
